@@ -27,7 +27,7 @@ def count_dough_pixels(image_path):
     # HSV範圍：H(色相), S(飽和度), V(明度)
     # 白色麵糰的HSV範圍
     lower_dough = np.array([0, 0, 180])      # 下限
-    upper_dough = np.array([45, 50, 255])   # 上限
+    upper_dough = np.array([55, 50, 255])   # 上限
     
     # 步驟4: 創建遮罩
     print("步驟4: 創建顏色遮罩...")
