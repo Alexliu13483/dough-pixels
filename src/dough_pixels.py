@@ -83,7 +83,7 @@ def count_dough_pixels(image_path):
     plt.show()
     
     # Print statistics
-    print(f"\n=== Statistics ===")
+    print("\n=== Statistics ===")
     print(f"Total pixels: {total_pixels:,}")
     print(f"Dough pixels: {dough_pixels:,}")
     print(f"Dough percentage: {dough_percentage:.2f}%")
